@@ -32,4 +32,7 @@ read height
 
 echo ""
 pixelTotal=$(( $width * $height ))
-echo "The device you currently have has $pixelTotal pixels" 
+
+echo "Pixels on this screen was calculated as: ${width}x${height} = ${pixelTotal}  [alternative]"
+ 
+
